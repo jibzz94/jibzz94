@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carte d'anniversaire</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Joyeux anniversaire !</h1>
+    </header>
+
+    <div class="lc">
+        <p>Cliques ici pour accéder à ta liste de cadeaux</p>
+        <a href="malistedecadeaux.html"><button>Liste de cadeaux</button></a>
+    </div>
+
+    <img src="img.bmp" alt="carte_anniversaire">
+
+    <form action="" method="get">
+        <h3>Contact</h3>
+        <ul>
+            <li>
+                <label for="surname">Entrez votre prénom : </label>
+                <input type="text" id="surname" name="surname" required>
+            </li>
+            <li>
+                <label for="name">Entrez votre nom :</label>
+                <input type="text" id="name" name="name" required>
+            </li>
+            <li>
+                <label for="email">Entrez votre email :</label>
+                <input type="text" id="email" name="email" required>
+            </li>
+            <div id="btn">   
+                <button type="submit">Submit</button>   
+            </div>
+        </ul>
+        
+    </form>
+
+<script src="acceuil.js"></script>
+</body>
+</html>
